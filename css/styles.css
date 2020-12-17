@@ -21,6 +21,7 @@ img {
 }
 #div-logo {
   right: 10px;
+  z-index: 10;
 }
 #logo {
   width: 100px;
@@ -42,8 +43,14 @@ img {
   position: fixed;
   z-index: 10;
 }
+
 #navbar-example3 a:hover {
   color: green;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: green !important;
+  background-color: transparent !important;
 }
 .row {
   margin-top: 50px;
