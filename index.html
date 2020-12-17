@@ -4,56 +4,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chester's</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/mediaqueries.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.css"> 
+  <link rel="stylesheet" href="css/mediaqueries.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  
 </head>
 <body>
       <!-- INICIO -->
-      <div class="carousel slide" data-ride="carousel" data-interval="3000"  data-pause=false>
+      <div id = "inicio" class="carousel slide" data-ride="carousel" data-interval="3000"  data-pause=false>
        <!-- CAROUSEL -->
         <div class="carousel-inner">
           <!-- PRESENTACION -->
           <h1 class="carousel-caption"> 
             <p class="p1">pizza • pasta • vino</p> 
-            <p class="chesters">CHESTER'S</p> 
-            <p class="p2"> desde 1978</p>
+            <p class="chesters ">CHESTER'S</p> 
+            <p class="p2 font-weight-bold"> desde 1978</p>
           </h1>
           <div class="carousel-item active">
             <img src="img/pizza.jpg"  class="img-fluid" alt="...">
           </div>
           <div class="carousel-item">
             <img src="img/postre.jpg"  class="img-fluid" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="img/pasta.jpg"  class="img-fluid" alt="...">
           </div>  
-          <!-- MENU -->
-          <nav id="navbar-example3" class="navbar navbar-light" >
-            <nav class="col col-lg-2 flex-column form-check-input" type="radio">
-              <a class="nav-link " href="#inicio">INICIO</a>
-              <a class="nav-link " href="#menu">MENÚ</a>
-              <a class="nav-link " href="#historia">HISTORIA</a>
-              <a class="nav-link " href="#historia">UBICACIÓN</a>
-            </nav>
+          <div class="carousel-item">
+            <img src="img/pasta2.jpg"  class="img-fluid" alt="...">
+          </div> 
+          <div class="carousel-item">
+            <img src="img/pasta3.jpg"  class="img-fluid" alt="...">
+          </div> 
+          <div id = "div-logo" class="position-fixed">
+            <a href="#inicio">
+              <img id="logo" class="rounded-circle" src="img/logo.png" alt="logo">
+            </a>
+          </div>
+          <!-- NAV BAR -->
+          <nav id="navbar-example3" class="navbar navbar-light"  >
+            <ul  id="menu" class="col col-lg-2 flex-column form-check-input">
+              <li>
+                <a class="nav-link " href="#inicio">INICIO</a>
+              </li>
+              <li>
+                <a class="nav-link " href="#menu">MENÚ</a>
+              </li>
+              <li>
+                <a class="nav-link " href="#historia">HISTORIA</a>
+              </li>
+              <li>
+                <a class="nav-link " href="#ubicacion">UBICACIÓN</a>
+              </li>  
+            </ul>
           </nav>
         </div>
       </div>
 
      
-      <div>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
-          <h4 id="inicio">Inicio</h4>
-          <p>...</p>
-          <h4 id="menu">Menú</h4>
-          <p>...</p>
-          <h4 id="hisdtoria">Historia</h4>
-          <p>...</p>
-          <h4 id="hisdtoria">Ubicación</h4>
-          <p>...</p>
-        </div>
+     <main data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+      <!-- MENÚ -->
+      <div class="container">
+        <div class="row">
+        <div class="col" style="background-color:lavender;">.col</div>
+        <div class="col" style="background-color:orange;">.col</div>
+        <div class="col" style="background-color:lavender;">.col</div>
       </div>
+      </div>
+      
+    </main>
+       
   </body> 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>
