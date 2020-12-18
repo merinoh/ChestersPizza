@@ -69,8 +69,8 @@ img {
   color: transparent;
 }
 #menu-chester a:hover {
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-  font-size: medium;
+  font-family: "Nova Slim", cursive;
+  font-size: 21px;
   font-weight: bolder;
   color: white;
 }
@@ -80,4 +80,52 @@ hr.dotted {
 .historia-chester {
   height: 170px;
   width: 450px;
+}
+.info {
+  font-family: "Righteous", cursive;
+  color: rgb(116, 54, 9);
+}
+.mapas {
+  font-family: "Lobster", cursive;
+  font-family: "Poiret One", cursive;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  color: rgb(226, 128, 8);
+  margin-bottom: 10%;
+}
+.dir {
+  font-family: "Righteous", cursive;
+  margin-top: 8%;
+  color: rgb(116, 54, 9);
+}
+.servicio {
+  font-family: "Righteous", cursive;
+  color: green;
+}
+.bg-4 {
+  background-color: rgba(221, 123, 11, 0.877);
+  color: white;
+}
+.container-fluid {
+  padding-top: 2px;
+}
+.info-horarios {
+  font-family: "Federo", sans-serif;
+  font-family: "Poiret One", cursive;
+  font-size: x-large;
+  color: black;
+}
+.info-footer {
+  font-family: "Righteous", cursive;
+  font-size: large;
+  color: white;
+}
+#chesters-footer {
+  font-family: "Bradley Hand", cursive;
+  font-size: xx-large;
+  color: black;
+}
+.p3 {
+  font-family: "Optima", sans-serif;
+  font-size: xx-small;
 }
