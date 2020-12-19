@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chester's</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animaciones.css">
   <link rel="stylesheet" href="css/bootstrap.css"> 
   <link rel="stylesheet" href="css/mediaqueries.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -16,8 +17,9 @@
   
 </head>
 <body data-spy="scroll" data-bs-target="#navbar-example3">
+    <header>
       <!-- INICIO -->
-      <div id = "inicio" class="carousel slide" data-ride="carousel" data-interval="3000"  data-pause=false>
+      <div id = "inicio" class="carousel slide" data-ride="carousel" data-interval="5000"  data-pause=false>
        <!-- CAROUSEL -->
         <div class="carousel-inner">
           <!-- PRESENTACION -->
@@ -25,6 +27,11 @@
             <p class="p1">pizza • pasta • vino</p> 
             <p class="chesters ">CHESTER'S</p> 
             <p class="p2 font-weight-bold"> desde 1978</p>
+            <button id = "div5" type="button" class="btn btn-light">
+              <a href="login.html" target="_blank">
+                INGRESA A TU CUENTA PARA ORDENAR
+              </a>
+            </button>
           </h1>
           <div class="carousel-item active">
             <img src="img/pizza.jpg"  class="img-fluid" alt="...">
@@ -44,8 +51,13 @@
               <img id="logo" class="rounded-circle" src="img/logo-chesters.webp" alt="logo">
             </a>
           </div>
+          <!-- BOTON PIZZA -->
+          <div id = "div-boton" class="position-absolute">
+            <a href="#menu-chester">
+              <img class="rounded-circle" src="img/pizza-boton.webp" alt="boton-pizza">
+            </a> 
+          </div>   
           <!-- NAV BAR -->
-          
           <nav id="navbar-example3">
             <ul  id="menu" class="nav nav-pills col col-lg-2 flex-column">
               <li>
@@ -64,8 +76,7 @@
           </nav>
         </div>
       </div>
-
-     
+    </header>
      <main>
       <!-- MENÚ -->
       <div id ="menu-chester"  class="container">
@@ -220,10 +231,27 @@
         <div id = "chesters-footer" class="col">
           <p class = "p3" >pizza • pasta • vino</p> 
           <p> CHESTER'S </p>
-          <p class = "p3"> desde 1978</p>
+          <p class = "p3"> desde 1978</p>  
         </div>
+        <div class="fb-network position-absolute">
+            <a href="https://www.facebook.com/ChestersPizzas/" target="_blank">
+              <img  src="img/fb-icono.webp" alt="fb">
+            </a> 
+        </div>
+        <div class="ig-network position-absolute">
+          <a href="https://www.instagram.com/chesterspizzamx/?hl=es-la" target="_blank">
+            <img  src="img/ig-icono.webp" alt="ig">
+          </a> 
+      </div> 
+      <div class="rappi-network position-absolute">
+        <a href="https://www.rappi.com.mx/restaurantes/chesters-pizza"  target="_blank">
+          <img  src="img/rappi-icono.webp" alt="ig">
+        </a> 
+    </div>  
       </div>
+      
     </footer>
+    
   </body> 
   <script src="js/jquery.js"></script>
   <script src="js/bootstrap.min.js"></script>

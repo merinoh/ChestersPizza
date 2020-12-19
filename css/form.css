@@ -1,0 +1,31 @@
+.jumbotron {
+  color: whitesmoke;
+  font-family: "Bradley Hand", cursive;
+  font-size: 120px; /*background-color:none !important;*/
+}
+#pizza {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 20%;
+  top: 2%;
+}
+#titulo {
+  width: 450px;
+  height: 130px;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: bisque;
+}
+input[type="registro"] {
+  width: 50%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border-color: darkorange;
+  margin: auto;
+}

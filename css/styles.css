@@ -27,13 +27,11 @@ img {
   width: 100px;
   height: 100px;
 }
-
 #menu {
   max-width: 10px;
   top: 350px;
   font-family: "Gill Sans", sans-serif;
 }
-
 .nav-link {
   color: darkorange;
   font-size: 15px;
@@ -128,4 +126,36 @@ hr.dotted {
 .p3 {
   font-family: "Optima", sans-serif;
   font-size: xx-small;
+}
+#div-boton {
+  width: 75px;
+  height: 75px;
+  bottom: 160px;
+  right: 680px;
+  z-index: 10;
+}
+.fb-network {
+  width: 30px;
+  height: 30px;
+  right: 280px;
+  margin-top: 30px;
+}
+.ig-network {
+  width: 30px;
+  height: 30px;
+  right: 230px;
+  margin-top: 30px;
+}
+.rappi-network {
+  width: 40px;
+  height: 40px;
+  right: 330px;
+  margin-top: 30px;
+}
+#div5 a {
+  font-family: "Optima", sans-serif;
+  font-size: medium;
+  color: whitesmoke;
+  text-shadow: 4px 4px 4px black;
+  text-decoration: none;
 }
