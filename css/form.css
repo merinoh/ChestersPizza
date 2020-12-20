@@ -13,19 +13,64 @@
 #titulo {
   width: 450px;
   height: 130px;
+  margin-left: 30%;
 }
-
+hr {
+  width: 25%;
+  left: 0%;
+}
+.nav-pills .nav-link {
+  border-radius: 100px;
+  width: 100px;
+}
+#tab-login {
+  margin-left: 60%;
+  width: 200px;
+  height: 43px;
+}
+#tab-register {
+  margin-right: 40%;
+  width: 200px;
+  height: 43px;
+}
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
   background-color: bisque;
+  color: darkorange;
+  font-size: 15px;
+}
+label.form-label {
+  margin-left: 7cm;
 }
 input[type="registro"] {
-  width: 50%;
+  width: 40%;
   padding: 20px 20px;
-  margin: 8px 0;
   box-sizing: border-box;
   border-radius: 25px;
   border-color: darkorange;
   margin: auto;
+}
+.form-check {
+  position: relative;
+  display: block;
+  margin-left: 60%;
+  color: darkorange;
+}
+
+a {
+  color: darkorange !important;
+  text-decoration: none !important;
+  background-color: transparent;
+  margin-right: 60%;
+}
+#btn-submit {
+  color: darkorange;
+  background-color: bisque;
+  border-color: darkorange;
+  width: 40%;
+  margin: auto;
+}
+p#no-member {
+  margin-left: 35%;
 }
